@@ -10,5 +10,5 @@ deploy:
   on:
     branch: master
   api_key:  
-    secure: qdKatKDbeMsDZwz2sUtVhg
+    secure: "acfbdd08-3b5d-48fa-9ca2-89477111c059"
     
