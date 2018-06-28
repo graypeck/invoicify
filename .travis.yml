@@ -4,3 +4,8 @@ services:
 before_install:
 - export PGPASSWORD="postgres"
 - psql -c "create database invoicify" -U postgres
+
+deploy:
+  provider: heroku
+  api_key:
+    secure: "qdKatKDbeMsDZwz2sUtVhg"
