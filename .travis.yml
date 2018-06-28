@@ -1,6 +1,6 @@
 language: java
 services:
   - postgresql
-before_script:
-  - psql -c 'create database invoicify;' -U postgres
-- psql -c "CREATE USER postgres WITH PASSWORD 'postgres';" -U postgres
+before_install:
+- export PGPASSWORD="postgres"
+- psql -c "create database invoicify" -U postgres
