@@ -8,5 +8,6 @@ public class InvoicifyApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(InvoicifyApplication.class, args);
+		//empty comment
 	}
 }
